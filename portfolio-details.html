@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - SnapFolio Bootstrap Template</title>
+  <title>DHPortfolio Details</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -44,38 +44,21 @@
     <div class="header-container d-flex flex-column align-items-start">
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero"><i class="bi bi-house navicon"></i>Home</a></li>
-          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-          <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-          <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+          <li><a href="index.html"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+          <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+          <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+          <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
         </ul>
       </nav>
 
       <div class="social-links text-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="x.com/diqirimtuhan" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.instagram.com/05.30am/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/05.30am/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/diqihadiq/"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/diqihadiq/" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
@@ -206,7 +189,7 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">DH</strong> <span>All Rights Reserved</span></p>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -224,6 +207,200 @@
 
   <!-- Preloader -->
   <div id="preloader"></div>
+
+  <!-- Portfolio Data Management -->
+  <script>
+    // Data setiap portfolio project
+    const portfolioData = {
+      1: {
+        title: "Dopamine: A Novel by Diqi Hadiq",
+        category: "Creative Writing",
+        clientLabel: "Publisher",
+        client: "Teori Kata Publishing",
+        date: "20 Mei, 2025",
+        url: "http://bit.ly/belibukudopamine",
+        images: [
+          "assets/img/portfolio/portfolio-12.webp",
+          "assets/img/portfolio/portfolio-7.webp"
+        ],
+        overview: "Dopamine by Diqi Hadiq is a psychological fiction novel that uses the science of dopamine, the brain's feel-good neurotransmitter as a grand metaphor for exploring love, emotional dependency, and the very nature of human desire. The cover design speaks volumes: a bottle resembling a spirit, with a glowing red heart inside, suggesting that love itself is an intoxicating substance, beautiful, addictive, and hard to put down. Perfect for readers who enjoy emotionally rich stories with a philosophical edge.",
+        features: [
+          { title: "Story-driven Design", text: "Delivering powerful messages through editorial layouts and strong typography." },
+          { title: "Character Development", text: "Building strong, complex, and memorable characters that stay with the reader long after the last page." },
+          { title: "World Building", text: "Creating detailed, consistent, and immersive fictional worlds that feel alive on every page." },
+          { title: "Visual Hierarchy", text: "Clear content structure for a comfortable and enjoyable reading experience." }
+        ]
+      },
+      2: {
+        title: "Ngawadul T-shirt",
+        category: "Graphic Design",
+        clientLabel: "Client",
+        client: "Keluarga Karawang Yogyakarta",
+        date: "24 November, 2023",
+        url: "https://instagram/@kky_1971",
+        images: ["assets/img/portfolio/portfolio-3.webp",
+                 "assets/img/portfolio/portfolio-2.webp"
+        ],
+        overview: "The Ngawadul (Ngariun Warga Jadi Dulur) t-shirt design was created for a regional organization event with a focus on modern visuals. The result is an eye-catching apparel design that can be easily applied to various t-shirt models.",
+        features: [
+           { title: "Bold Illustration", text: "Strong graphics that make the brand easily recognizable and memorable." },
+           { title: "Print-ready", text: "Ready to print with high resolution and precise color composition." },
+           { title: "Brand Consistency", text: "Keeping design assets aligned with the apparel brand identity." },
+           { title: "Mockup Presentation", text: "Showcasing the design concept across various t-shirt formats." }
+        ]
+      },
+      3: {
+        title: "Guevara T-shirt",
+        category: "Graphic Design",
+        clientLabel: "Client",
+        client: "Individual Project",
+        date: "23 Februari, 2023",
+        url: "-",
+        images: ["assets/img/portfolio/portfolio-portrait-2.webp",
+                 "assets/img/portfolio/portfolio-11.webp",
+                 "assets/img/portfolio/portfolio-6.webp",
+
+        ],
+        overview: "The Guevara T-shirt design concept was crafted to highlight revolutionary iconography and streetwear style. A strong focus on typographic detail and color delivers a bold yet clean impression.",
+        features: [
+           { title: "Iconic Branding", text: "Using visually recognizable elements that are instantly associated with the brand." },
+           { title: "Clean Layout", text: "Simple yet impactful design for a fashion-forward product." },
+           { title: "Screen Print Ready", text: "Crafted for maximum print quality on fabric." },
+           { title: "Limited Edition", text: "Delivering an exclusive feel for a special collection." }
+        ]
+      },
+      4: {
+        title: "Guide Book",
+        category: "Graphic Design",
+        clientLabel: "Client",
+        client: "UKM Musik UMY",
+        date: "6 November, 2023",
+        url: "-",
+        images: ["assets/img/portfolio/portfolio-portrait-4.webp"],
+        overview: "The Orbek UKM Musik UMY Guide Book was created to clearly guide users with an informative layout design. Each page is structured to be comfortable to read and easy to understand by the target audience.",
+        features: [
+           { title: "Informative Layout", text: "Neat and well-organized content arrangement for easy navigation." },
+           { title: "Readable Typography", text: "Carefully chosen fonts that are easy to read at all sizes." },
+           { title: "Visual Support", text: "Use of icons and illustrations to reinforce and clarify information." },
+           { title: "Print Optimization", text: "Print-ready with proper margins and bleeds for professional output." }
+          ]
+      },
+      5: {
+        title: "Packaging Product",
+        category: "Graphic Design",
+        clientLabel: "Client",
+        client: "Rebel Shoes Clean",
+        date: "03 April, 2023",
+        url: "https://instagram.com/@rebel.soclean",
+        images: ["assets/img/portfolio/portfolio-5.webp",
+                 "assets/img/porfolio/portfolio-9.webp",
+        ],
+        overview: "The product packaging design focuses on function and minimalist aesthetics for retail products. Materials and colors are carefully selected to support clear product branding, while incorporating music elements as a unique signature that sets it apart from the rest.",
+        features: [
+           { title: "Packaging Design", text: "Modern and visually compelling packaging concept that stands out on the shelf." },
+           { title: "Music-inspired Identity", text: "Incorporating music elements into the packaging as a unique signature that reflects a bold and distinctive brand character." },
+           { title: "Brand Visibility", text: "Clear logo placement and product information that is easy to read at a glance." },
+           { title: "Shelf Appeal", text: "Designed to attract attention and leave a lasting impression on store shelves." }
+        ]
+      },
+      6: {
+        title: "Zine Simak Siar Vol.26",
+        category: "Creative Writing",
+        clientLabel: "Publisher",
+        client: "SIMAKSIAR GIGS",
+        date: "28 Januari, 2026",
+        url: "https://instagram.com/@simaksiar",
+        images: ["assets/img/portfolio/portfolio-4.webp",
+                 "assets/img/portfolio/portfolio-8.webp"
+        ],
+        overview: "This zine was created as part of the Simak Siar Gigs event, a music gig celebration with a dedicated zine featuring stories about the performing bands. I submitted my written work as a contributor, went through the selection process, and was accepted to be published in Simak Siar Gigs Zine Vol. 26.",
+        features: [
+           { title: "Published Writer", text: "Successfully passed the selection process and got published in Simak Siar Gigs Zine Vol. 26." },
+           { title: "Band Coverage", text: "Writing focused on stories, profiles, and insights about bands performing at the Simak Siar Gigs event." },
+           { title: "Editorial Writing", text: "Crafting engaging and well-structured written content for a music-themed publication." },
+           { title: "Creative Expression", text: "Channeling a deep passion for music and storytelling into a published piece of writing." }
+        ]
+      }
+    };
+
+    // Fungsi untuk ambil query parameter
+    function getQueryParam(name) {
+      const params = new URLSearchParams(window.location.search);
+      return params.get(name);
+    }
+
+    // Fungsi untuk update konten berdasarkan project ID
+    function loadPortfolioDetails(projectId) {
+      const project = portfolioData[projectId] || portfolioData[1];
+
+      // Update Project Information
+      document.querySelector(".portfolio-info ul li:nth-child(1) strong").nextSibling.textContent = ": " + project.category;
+      
+      // Update client label and value
+      const clientLi = document.querySelector(".portfolio-info ul li:nth-child(2)");
+      clientLi.innerHTML = `<strong>${project.clientLabel}</strong>: ${project.client}`;
+      
+      document.querySelector(".portfolio-info ul li:nth-child(3) strong").nextSibling.textContent = ": " + project.date;
+      
+      const urlLink = document.querySelector(".portfolio-info ul li:nth-child(4) a");
+      urlLink.href = project.url;
+      urlLink.textContent = project.url.replace(/^https?:\/\//, "");
+
+      // Update slider images
+      const swiperWrapper = document.querySelector(".swiper-wrapper");
+      swiperWrapper.innerHTML = project.images
+        .map(img => `<div class="swiper-slide"><img src="${img}" alt="${project.title}" class="img-fluid" loading="lazy"></div>`)
+        .join("");
+
+      // Update Project Overview title dan text
+      document.querySelector(".portfolio-description h2").textContent = project.title;
+      const paragraphsContainer = document.querySelector(".portfolio-description");
+      const featureStart = paragraphsContainer.querySelector(".features");
+      
+      // Hapus paragraf lama
+      let p = paragraphsContainer.querySelector("p");
+      while (p && !featureStart.contains(p)) {
+        p.remove();
+        p = paragraphsContainer.querySelector("p");
+      }
+
+      // Insert paragraf baru
+      const newParagraphs = document.createElement("div");
+      newParagraphs.innerHTML = `<p>${project.overview}</p>`;
+      featureStart.parentNode.insertBefore(newParagraphs, featureStart);
+
+      // Update Key Features
+      const featuresContainer = document.querySelector(".row.gy-3");
+      featuresContainer.innerHTML = project.features
+        .map(feature => `
+          <div class="col-md-6">
+            <div class="feature-item" data-aos="fade-up">
+              <i class="bi bi-check-circle-fill"></i>
+              <h4>${feature.title}</h4>
+              <p>${feature.text}</p>
+            </div>
+          </div>
+        `)
+        .join("");
+
+      // Reinitialize Swiper setelah konten diubah
+      setTimeout(() => {
+        if (window.Swiper) {
+          const swiperElements = document.querySelectorAll(".init-swiper");
+          swiperElements.forEach(element => {
+            const config = JSON.parse(element.querySelector(".swiper-config").innerHTML.trim());
+            new Swiper(element, config);
+          });
+        }
+      }, 100);
+    }
+
+    // Load data ketika halaman siap
+    document.addEventListener("DOMContentLoaded", function() {
+      const projectId = getQueryParam("id") || "1";
+      loadPortfolioDetails(projectId);
+    });
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
