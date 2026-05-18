@@ -1,19 +1,22 @@
 🗂️ DHPortfolio — Diqi Hadiq
 > Website portfolio pribadi yang menampilkan profil, resume, dan karya kreatif.
 ---
-📋 Tentang Proyek
-Portfolio ini dibuat untuk memperkenalkan diri sebagai seorang yang kreatif dan adaptif.
+## 📋 Tentang Proyek
+
+Portfolio ini dibuat untuk memperkenalkan diri sebagai seorang yang **kreatif dan adaptif**.
 Website mencakup informasi lengkap mulai dari profil, pengalaman, karya, layanan, hingga kontak.
----
-🚀 Fitur
-Halaman	Deskripsi
-🏠 Home	Halaman utama dengan pengenalan singkat
-👤 About	Informasi lebih lanjut tentang diri saya
-📄 Resume	Riwayat pendidikan dan pengalaman kerja
-🎨 Portfolio	Kumpulan karya dan project yang telah dibuat
-🛠️ Services	Layanan yang saya tawarkan
-📬 Contact	Form dan informasi kontak
----
+
+## 🚀 Fitur
+
+| Halaman | Deskripsi |
+|---|---|
+| 🏠 **Home** | Halaman utama dengan pengenalan singkat |
+| 👤 **About** | Informasi lebih lanjut tentang diri saya |
+| 📄 **Resume** | Riwayat pendidikan dan pengalaman kerja |
+| 🎨 **Portfolio** | Kumpulan karya dan project yang telah dibuat |
+| 🛠️ **Services** | Layanan yang saya tawarkan |
+| 📬 **Contact** | Form dan informasi kontak |
+
 📁 Struktur Folder
 ```
 DHPortfolio/
